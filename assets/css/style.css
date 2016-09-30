@@ -1,0 +1,75 @@
+.container{
+  width: 100%;
+  margin-top: 5px;
+}
+
+.navbar {
+  height: 60px;
+  padding-right: 1%;
+}
+
+.navbar-brand {
+	padding: 0px 10px;
+}
+
+.logo {
+	height: 100%;
+}
+
+.btn {
+	margin-top: 5px;
+}
+
+:target:before {
+  content:"";
+  display:block;
+  height:100px; /* fixed header height*/
+  margin:-100px 0 0; /* negative fixed header height */
+}
+
+.container-fluid {
+  margin-top: 60px;
+}
+
+.body {
+	padding-top: 80px;
+}
+
+#home {
+	padding: 0px;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("../img/lookoutmtnco.jpg");
+
+    /* Set a specific height */
+    height: 100vh; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-text {
+	position: static;
+	padding-top: 258px;
+}
+
+.about-container {
+	background-color: #cfd6dd;
+	height: 100vh;
+}
+
+
+.portfolio-container {
+	background-color: #b4bbc1;
+	height: 100vh;
+}
+
+.contact-content {
+	background-color: #c1c8bb;
+	height: 100vh;
+}
